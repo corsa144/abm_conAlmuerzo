@@ -23,3 +23,18 @@
 	<string.h>
 	"../librerias/persona.h"
 
+1556494430 source:e:\librerias\persona.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"../librerias/persona.h"
+
+1556717624 e:\librerias\persona.h
+
+1556717728 source:e:\amb_conalmuerzo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../librerias/persona.h"
+

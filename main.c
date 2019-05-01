@@ -95,7 +95,7 @@ int main(){
                                 modificacionMenu(menu,CANT_MENU);
                                 break;
                             case 4:
-
+                                system("cls");
                                 listarMenu(menu,CANT_MENU);
                                 break;
                             case 5:
@@ -106,14 +106,15 @@ int main(){
 
                     break;
                 case 2:
-                    printf("ingrese empleado:\n1.alta\n2.baja\n3.modificacion\n4.listar\n5.salir\n");
-                    scanf("%d",&opcionEmpleado);
                     do{
+
+                        printf("ingrese empleado:\n1.alta\n2.listar\n3.baja\n4.modificar\n5.salir\n");
+                        scanf("%d",&opcionEmpleado);
 
                         switch(opcionEmpleado){
                         case 1:
 
-                            alta(pers, CANT);
+                            alta(pers,sector, CANT, CANT_SECTOR);
                             break;
                         case 2:
 
@@ -146,6 +147,7 @@ int main(){
                             altaSector(sector,CANT_SECTOR);
                             break;
                         case 2:
+                            system("cls");
                             listarSector(sector,CANT_SECTOR);
                             break;
                         case 3:
@@ -160,6 +162,7 @@ int main(){
                             altaAlmuerzo(almuerzo, menu, pers, CANT_ALMUERZO, CANT_MENU,CANT);
                             break;
                         case 2:
+                            system("cls");
                             listarAlmuerzo(almuerzo,CANT_ALMUERZO);
                             break;
                         case 3:
